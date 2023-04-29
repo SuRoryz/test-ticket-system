@@ -1,0 +1,14 @@
+.ui-button {
+    width: 2rem;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.1s ease-in-out;
+}
+
+.ui-button:hover {
+    background-color: var(--sub-bg-color);
+}

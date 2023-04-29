@@ -1,0 +1,83 @@
+.login-window {
+    width: auto;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+}
+
+.login-window-form {
+    padding: 0 0 2rem 0;
+    height: 100%;
+    width: 100%;
+}
+
+.login-window-form form {
+    height: 100%;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login-label-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.form-login-label-wrapper label {
+    padding: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.form-login-label-wrapper input {
+    outline: none;
+    height: 1.5rem;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.login-window-tabs {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.login-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    padding-top: 1rem;
+}
+
+.login-error-message {
+    padding: 1rem;
+    border: 2px solid red;
+    border-radius: 0.5rem;
+    background-color: #ffd5d5;
+    font-size: 0.8rem;
+}
+
+.login-window-tab {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.1s ease-in-out;
+}
+
+.login-window-tab:hover {
+    background-color: var(--sub-bg-color)
+}
